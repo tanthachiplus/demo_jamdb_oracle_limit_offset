@@ -21,4 +21,4 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 
 
 ## Run to check
-   UserService.list_users %{limit: 10, page: 4}
+   UserService.list_users %{limit: 5, page: 5}
