@@ -48,7 +48,8 @@ defmodule UserService do
       total: Repo.aggregate(query_count, :count),
       total_current_get: length(result),
       page: page,
-      limit: limit
+      limit: limit,
+      offset: (page - 1) * limit
     }
   end
 
